@@ -1,0 +1,14 @@
+figures/*
+all-models/all_models_warfarin.ipynb
+
+models/DCM/results/*
+models/DCM/DCM_warfarin.ipynb
+
+models/DNN/results/*
+models/DNN/DNN_warfarin.ipynb
+
+models/EncDec/results/*
+models/EncDec/EncDec_warfarin.ipynb
+
+models/NeuralODE/results/*
+models/NeuralODE/neural_ode_warfarin.ipynb
