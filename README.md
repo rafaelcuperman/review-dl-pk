@@ -1,0 +1,6 @@
+This is the repository that contains the written code for the comparison of Deep Learning families in pharmacokinetic modeling.
+The repository contains the following folders:
+* `data`: contains the datasets used for the analysis
+* `src`: contains several .jl files needed to run analysis, train, and test models.
+* `models`: contains the models built for the analysis and the codes (as .ipynb) used to train and test those models. Inside this folder, there is one folder for each one of the evaluated Deep Learning architecture (DNN, NeuralODE, EncDec, and DCM). There is an additional folder called `all-models` that contains code required to run analysis for all the models at the same time and generate combined figures and graphs.
+Inside each of the folders of the models, there is a .ipynb properly commented that can be used to train and test the respective model in Julia. Additionally, a there is a folder called `models` that contains several independent models trained for each architecture using different random initializations.
